@@ -1,0 +1,109 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+#kell{
+    width: 1024px;
+    margin: auto;
+}
+.logo{
+    margin: 5px 0 0 120px;
+}
+
+header{
+    background-color: #0e222d;
+    height: 60px;
+    position: relative;
+}    
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+header nav li{
+    list-style-type:none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 15px;
+    font-family: monospace;
+    font-weight: bold;
+}
+header nav a{
+    text-decoration: none;
+    display: block;
+    color: rgba(150, 151, 151, 0.26);
+}
+a:link {
+    text-decoration: none;
+   }
+header nav a:hover{
+    color: aliceblue;
+}
+.conteiner{
+    width: 1024px;
+    margin: 20px auto;
+    
+}
+#portifolio{
+    text-align: center;
+    margin: 0 150px;
+    font-size: 15px;
+}
+#portifolio h1{
+    font-size: 40px;
+    
+}
+.tudi{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.nome{
+    text-transform: uppercase;
+}
+#sobrenos{
+    background-image: url(./imagens/bg_detalhe.png);
+    display:flex;
+    flex-wrap: wrap;
+    height: 364px;
+    text-align: center;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+#sobrenos h2{
+    text-transform: uppercase;
+}
+#sobrenos h4{
+    text-transform: uppercase;
+    text-decoration: double;
+    padding-bottom: 30px;
+}
+#contato{
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px;
+}
+.mapa{
+    display: block;
+    text-align: center;
+}
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 10px;
+    margin: 50px;
+} 
