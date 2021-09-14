@@ -1,0 +1,32 @@
+h1{
+    color: #63351B;
+    background-color:#faa403;
+    border-bottom: #f25a02 5px double;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body{
+    font-size: 20px;
+    background-image: url('./imagens/fundo-ilha.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+}
+
+img{
+    float: left;
+    width: 150!important;
+    height: 150px!important;
+}
+
+.para{
+    font-size: 18px;
+    color: #63351B;
+}
+
+.paro{
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
