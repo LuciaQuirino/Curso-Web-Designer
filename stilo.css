@@ -1,66 +1,64 @@
-body{
-     background-color: rgb(222, 201, 247);
+body {
+  background-color: rgb(222, 201, 247);
 }
-h1{
-    text-align: center;
-    text-transform: uppercase;
+h1 {
+  text-align: center;
+  text-transform: uppercase;
 }
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
-li ul{
-    /* display: none; */
-    height: 0;
-    overflow: hidden;
-    transition: height .5s;
+li ul {
+  /* display: none; */
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
 }
-li:hover{
-    background: rgb(212, 134, 231);
-    text-decoration: none;
+li:hover {
+  background: rgb(212, 134, 231);
+  text-decoration: none;
 }
-li:hover ul{
-    /* display: block; */
-    height: 30px;
-}
-
-
-div{ 
-    padding: 2%;
-    margin: 2%;
-    border: 2px solid black;
-    width: 15%;
-    display: inline-block;
-    height: 100px;
-}
-.div1{
-    overflow: visible;
-}
-.div2{
-    overflow: hidden;
-}
-.div3{
-    overflow: scroll;
-}
-.div4{
-    overflow: auto;
+li:hover ul {
+  /* display: block; */
+  height: 30px;
 }
 
+div {
+  padding: 2%;
+  margin: 2%;
+  border: 2px solid black;
+  width: 15%;
+  display: inline-block;
+  height: 100px;
+}
+.div1 {
+  overflow: visible;
+}
+.div2 {
+  overflow: hidden;
+}
+.div3 {
+  overflow: scroll;
+}
+.div4 {
+  overflow: auto;
+}
 
-td{
-    border: orchid 3px solid;
+td {
+  border: orchid 3px solid;
 }
-th{
-    background: plum;
-    border: orchid 3px solid;
+th {
+  background: plum;
+  border: orchid 3px solid;
 }
-caption{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
+caption {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
 }
-table{
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    border-collapse: collapse;
+table {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
 }
