@@ -1,14 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stilo.css">
-    <link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stilo.css" />
+    <link
+      rel="shortcut icon"
+      href="./imagens/favicon.png"
+      type="image/x-icon"
+    />
     <title>Luh codar</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>Formulario Luh Codar</h1>
+
+    <form action="#" method="get" class="dado">
+      <fieldset>
+        <legend>Dados Pesoais</legend>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required />
+        <label for="data">Data de Nascimento</label>
+        <input type="date" max="2000-01-01" name="data" id="data" required />
+        <label for="fone">Telefone</label>
+        <input type="tel" name="fone" id="fone" required />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required />
+        <label for="filho">Filhos</label>
+        <input
+          type="number"
+          max="10"
+          min="0"
+          name="filho"
+          id="filho"
+          required
+        />
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+          <option value="sp">Sao Paulo</option>
+          <option value="df">Distrito Federal</option>
+          <option value="go">Goias</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Sexo</legend>
+        <label
+          >Masculino
+          <input type="radio" name="sexo" value="M" id="sexo" />
+        </label>
+        <label
+          >Feminino
+          <input type="radio" name="sexo" value="F" id="sexo" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Comidas favoritas</legend>
+        <label>Ovo<input type="checkbox" name="ovo" id="comida" /></label>
+        <label>Pão<input type="checkbox" name="pao" id="comida" /></label>
+        <label
+          >Pão Integral<input type="checkbox" name="intpao" id="comida"
+        /></label>
+        <label>Cuscuz<input type="checkbox" name="cuscuz" id="comida" /></label>
+        <label
+          >Tapioca<input type="checkbox" name="tapioca" id="comida"
+        /></label>
+        <label
+          >Crepioca<input type="checkbox" name="crepioca" id="comida"
+        /></label>
+        <label
+          >Panetone<input type="checkbox" name="panetone" id="comida"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Cor favorita</legend>
+        <label><input type="color" name="cor" id="cor" /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Mande uma Mensagem para a Luh</legend>
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="escreva aqui!"
+        ></textarea>
+        <label class="s"
+          ><input type="checkbox" name="s" id="s" required /> Aceito de livre
+          vontade enviar meus dados</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Anexos</legend>
+        <label>
+          <input type="file" name="anex" id="anex" />
+        </label>
+      </fieldset>
+      <input type="range" name="" id="range" min="0" max="5" step="1" />
+      <input type="time" name="" id="time" />
+
+      <input type="submit" value="OK" class="ok" />
+      <input type="reset" value="reset" class="ok" />
+      <input type="button" value="button" class="ok" />
+    </form>
+  </body>
 </html>

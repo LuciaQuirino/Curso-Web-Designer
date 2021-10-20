@@ -1,3 +1,41 @@
 body{
-    background-color: rgb(222, 201, 247);
+    background-color: rgb(228, 166, 243);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+.dado{
+    width: 350px;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 20px;
+    border: black 3px solid;
+    background: rgb(209, 72, 243);
+}
+.dado legend{
+     background: darkmagenta;
+     color: white;
+     text-transform: uppercase;
+ }
+
+#nome, #fone, #cor, #email, #filho, #data, #sexo, #estado, #comida, #msg, #anexo, #range, #time, .ok{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ok{
+    margin-top: 10px;
+}
+#nome, #fone, #cor, #email, #filho, #data, #sexo, #estado, #comida,  #msg, #anexo, #range, #time, .ok{
+        margin-bottom: 10px;
+}
+#msg{
+    resize: none;
+}
+.s{
+    font-size: 10px;
 }
