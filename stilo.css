@@ -1,3 +1,98 @@
 body{
     background-color: rgb(222, 201, 247);
+    
+}
+h1{
+    text-align: center;
+    color: rgb(100, 6, 100);
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+#radius{
+    background: blueviolet;
+    margin: 50px auto;
+    border-radius: 200px / 50px;
+}
+#shadow{
+   background: blueviolet;
+   margin: 50px auto;
+   border-radius: 50%;
+   box-shadow: 20px 30px 20px rgb(85, 5, 85),
+   -20px -30px 20px rgb(255, 0, 255);
+}
+#tshadow{
+    background: blueviolet;
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 5px 3px 0px rgb(80, 73, 73);
+}
+#lineares{
+    margin: 50px auto;
+    background-image: linear-gradient(rgb(0,156,59), rgb(255,223,0), rgb(0,39,118), rgb(255,255,255));
+    color: rgb(0, 0, 0);
+}
+#lineares2{
+    margin: 50px auto;
+    background-image: linear-gradient(to left top, rgb(32, 1, 61), blueviolet, rgb(111, 0, 255));
+    color: rgb(222, 201, 247);
+}
+#lineares1{
+    margin: 50px auto;
+    color: rgb(222, 201, 247);
+    text-align: center;
+    background-image: linear-gradient( to top,
+    rgb(0, 0, 0), transparent), 
+    url(imagens/esquilo.jpg);
+    background-size: auto, contain ;
+}
+#fontesc{
+    background: blueviolet;
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    font-family: 'luhfont';
+    text-align: center;
+}
+@font-face{
+    font-family:'luhfont';
+    /* src: url(font/alex-brush.ttf); */
+    src: url(font/kaushan-script.otf);
+    /* src: url(font/the-humble.otf); */
+    /* src: url(font/the_humble.ttf); */
+}
+#transition:hover, #transition1:hover, #transition2:hover{
+    width: 300px;
+    height: 300px;
+    background: darkblue;
+}
+#transition{
+    background: blueviolet;
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(2, end);
+}
+#transition1{
+    background: blueviolet;
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: step-end;
+}
+#transition2{
+    background: blueviolet;
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
 }
